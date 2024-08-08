@@ -1,0 +1,82 @@
+.loginBody{
+    background: url('./images/login\ signup.webp');
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.signupBody{
+    background: url('./images/login\ signup.webp');
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+.loginParent{
+    background-color: #fff;
+    border-radius: 15px;
+    width: 40%;
+    margin: 100px auto;
+    box-shadow: 2px 2px 8px #000;
+    border: none;
+    padding: 30px;
+    /* display: flex;
+    align-items: start;
+    justify-content: space-around; */
+
+
+
+}
+
+.signupParent{
+    background-color: #fff;
+    border-radius: 15px;
+    width: 40%;
+    margin: 70px auto;
+    box-shadow: 2px 2px 8px #000;
+    border: none;
+    padding: 30px;
+    /* display: flex;
+    align-items: start;
+    justify-content: space-around; */
+
+
+}
+.loginBox{
+    /* text-align: center; */
+    width: 100%;
+    /* flex-wrap: nowrap; */
+    
+}
+
+.loginBox a{
+    font-size: larger;
+    font-weight: bolder;
+}
+.loginFields{
+    border: 1px solid black;
+    
+}
+.loginFields input{
+    font-weight: bolder;
+    font-size: large;
+}
+
+.loginFields ::placeholder{
+    font-weight: bold;
+}
+
+.loginBtn{
+    width: 100%;
+
+}
+.signUpbtn{
+    width: 100%;
+}
